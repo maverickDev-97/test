@@ -1,4 +1,5 @@
 import React from 'react';
+import AnotherComponent from './components/AnotherComponent';
 import SampleComponent from './components/SampleComponent';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         React Git Project
       </h1>
       <SampleComponent />
+      <AnotherComponent />
     </div>
   );
 }

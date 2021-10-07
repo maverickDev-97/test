@@ -6,8 +6,12 @@ const AnotherComponent = () => {
         console.log('Feature works');
     }
 
+    function Featchaga111() {
+        alert('Featchaga works')
+    }
+
     return (
-        <div>
+        <div onClick={Featchaga111}>
             Another Component
         </div>
     )
